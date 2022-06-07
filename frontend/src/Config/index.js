@@ -1,0 +1,4 @@
+export const headers = {
+  Authorization:
+    "Bearer ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpkV0lpT2pJc0ltNWhiV1VpT2lKbWNtOXVkR1Z1WkNJc0ltVnRZV2xzSWpvaVpuSnZiblJsYm1SQVpuSnZiblJsYm1RdVkyOXRJaXdpYVdGMElqb3hOalUwTlRFek56RTRMQ0psZUhBaU9qRTJOVFEzTWprM01UaDkuZVhiQllfY0hndno1Z2VCU05NT19JQngzSUNsckM1MUZESHF3dEZZdVFNQToy",
+};

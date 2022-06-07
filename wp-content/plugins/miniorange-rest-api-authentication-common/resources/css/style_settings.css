@@ -1,0 +1,862 @@
+ .mo_support_layout{
+       width: 95%;
+       background-color:#FFFFFF; 
+       border:1px solid #CCCCCC; 
+	   padding-left:20px; 
+	   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	   transition: 0.2s all ease-out;
+}
+.mo_support_layout:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.mo_api_authentication_settings_table {
+	width: 100%;
+}
+.mo_api_authentication_settings_table tr td:first-child {
+	width: 30%;
+}
+
+.mo_oauth_view{
+	width: 350px;
+	border:0;
+}
+
+.mo_table_layout {
+	background-color:#FFFFFF; 
+	border:1px solid #CCCCCC;
+	margin-bottom: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding:15px 10px 15px 15px;
+	transition: 0.2s all ease-out;
+}
+.mo_table_layout:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.mo_table_layout input['type=text'] {
+	width: 80%;
+}
+.mo_table_layout td strong {
+	margin-left: 10px;
+}
+.mo_eve_table_layout {
+	background-color:#FFFFFF; 
+	border:1px solid #CCCCCC; 
+	padding:0px 10px 0px 10px; 
+	margin:10px 15% 10px 0px;
+}
+.col1 {
+	width: 20%;
+}
+.panel_toggle {
+	cursor: pointer;
+}
+.panel_toggle:hover {
+	text-decoration: underline;
+}
+.mo_eve_table_textbox {
+	width: 80%;
+}
+.mo_table_td_checkbox {
+	padding-left: 10px;
+}
+.mo_table_textbox {
+	width:80%;
+}
+.mo_settings_table {
+	width: 100%;
+}
+.mo_settings_table tr td:first-child {
+	width: 30%;
+}
+.mo_heading_margin {
+	margin-left: 0px;
+}
+.error_wid_login {
+	background-color: #FFEBE8;
+	border: 1px dashed #FF0000;
+	color: #FF0000;
+	float: left;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-weight: 500;
+	padding: 6px;
+	margin-left: 200px;
+	width: 80%;
+	clear:both !important;
+}
+
+.login_wid{
+		list-style-type:none;
+		border: 1px dashed #999999;
+		width:98%;
+		float:left;
+		padding:5%;
+
+	}
+.login_wid li{
+	width:48%;
+	float:left;
+	margin:2px;
+}
+.openid_social_login{
+	padding:5px 0px 0px 0px;
+	clear:both;
+	width:100% !important;
+}
+
+.login_wid li input{
+	width:85%;
+	float:left;
+	margin:2px;
+}
+.mo_rest_api_help_title {
+	font-size:17px;
+	width:100%;
+	color:#1B79AE;
+	cursor:pointer;
+	font-weight: bold;
+}
+.mo_rest_api_help_desc {
+	font-size:13px;
+	border-left:solid 2px rgba(128, 128, 128, 0.65);
+	margin-top:10px;
+	padding-left:10px;
+}
+.mo_rest_api_help {
+	border-top: solid 1px grey;
+	width: 95%;
+}
+.mo_rest_api_help_cell {
+	padding: 20px;
+	border-bottom: solid 1px grey;
+}
+.mo_rest_api_support_layout{
+	width: 93%;
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	padding-left:20px;
+}
+.mo_rest_api_table_layout {
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	padding:0px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+.mo_rest_api_table_layout input['type=text'] {
+	width: 80%;
+}
+.mo_rest_api_table_layout td strong {
+	margin-left: 10px;
+}
+.mo_rest_api_table_textbox {
+	width: 80%;
+}
+.mo_rest_api_authentication_settings_table {
+	width: 100%;
+}
+.mo_rest_api_authentication_settings_table tr td:first-child {
+	width: 30%;
+}
+.mo_rest_api_heading_margin {
+	margin-left: 0px;
+}
+
+.mo_rest_api_local_pricing_free_tab{
+	background-color: rgba(34, 153, 221, 0.82)!important;
+}
+.mo_rest_api_local_pricing_paid_tab{
+	background-color: #1a71a4 !important;
+}
+.mo_rest_api_local_pricing_text{
+	font-size: 14px !important;
+	color: #fff !important;
+	font-weight: 600 !important;
+
+}
+.mo_rest_api_local_pricing_sub_header{
+	margin: 2px !important;
+	color: #fff !important;
+}
+.mo_rest_api_local_pricing_header{
+	color: #fff !important;
+	margin: 4px !important;
+}
+.mo_rest_api_local_pricing_table{
+	text-align:center;
+	font-size: 15px !important;
+	background-color:#FFFFFF;
+}
+
+.mo_rest_api_premium_thumbnail{
+	width: 350px;
+	padding: 4px;
+	margin-bottom: 10px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: border .2s ease-in-out;
+	-o-transition: border .2s ease-in-out;
+	transition: border .2s ease-in-out;
+}
+
+.mo-fa-icon>tr>td>i.fa{
+	color:#5b8a0f;
+
+}
+
+.mo_align-center>tr>td{
+	text-align:center !important;
+}
+
+.mo_table-bordered, .mo_table-bordered>tbody>tr>td{
+	border: 1px solid #ddd;
+}
+
+.mo_table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #f9f9f9;
+}
+
+.mo_table-bordered>thead>tr>th{
+	vertical-align:top !important;
+}
+
+.mo_plan-desc{
+	font-size:14px !important;
+}
+.mo-display-logs{
+	color: #3c763d;
+	background-color: #dff0d8;
+	padding:2%;
+	margin-bottom:20px;
+	text-align:center;
+	border:1px solid #AEDB9A;
+	font-size:18pt;
+}
+.mo-display-block {
+	color: #050505;
+	width: -moz-available;
+	min-height: 300px !important;
+	overflow: auto;
+	display: inline-block;
+	background-color: #f6f6f6;
+	padding: 2%;
+	margin-bottom: 20px;
+	text-align: left;
+	border: 1px solid #AEDB9A;
+	font-size: 12pt;
+}
+.mo_divider{
+	width:5px;
+	height:auto;
+	display:inline-block;
+}
+/* Tooltip container */
+.tooltip {
+	position: relative;
+	display: inline-block;
+	size: letter;
+	/* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+
+	background-color:grey;
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	/* Position the tooltip text */
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+	font-size: small;
+	/* Fade in tooltip */
+	opacity: 50;
+	transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.tableborder {
+	border-collapse: collapse;
+	width: 100%;
+	border-color:#eee;
+}
+
+.tableborder th, .tableborder td {
+	text-align: left;
+	padding: 8px;
+	border-color:#eee;
+}
+
+.tableborder tr:nth-child(even){background-color: #f2f2f2}
+
+
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ #mo_rest_api_default_apps_input {
+	background-image: url('css/searchicon.png');
+	background-position: 6px 8px;
+	background-repeat: no-repeat;
+	width: 100%;
+	font-size: 15px;
+	padding: 8px 12px 8px 20px;
+	border: 1px solid #ddd;
+	margin-bottom: 8px;
+  }
+  #mo_rest_api_default_apps {list-style-type: none;padding: 0;margin: 0;}
+  #mo_rest_api_default_apps li a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height:14px;
+	color: black;
+	display: block;
+	min-height: 80px;
+  }
+  .mo_rest_api_default_app_icon {max-height:50px;max-width:50px}
+  .mo_rest_api_default_app_icon:hover { background-color: #eee;}
+  #mo_rest_api_default_apps li {
+	  border: 1px solid #ddd;
+	  background-color: #f6f6f6;
+	  padding: 8px 2px;
+	  display:inline-block; width:120px;height:80px;text-align:center;vertical-align:middle;
+	  margin:2px;
+  }
+
+  .mo_rest_api_user_analytics table {
+	  border-collapse: collapse;
+	  border: 1px solid #ddd;
+  }
+  .mo_rest_api_user_analytics td {
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+.mo_rest_api_user_analytics thead {
+	background: rgba(27, 112, 177, 0.8);
+	font-weight: 600;
+	color: #e5e5e5;
+}
+
+.mo_rest_api_user_analytics thead:hover {
+	color: #f5f5f5 !important;
+	background: rgba(27, 112, 177, 1)  !important;
+}
+
+.mo_rest_api_user_analytics tr:hover {background-color: #ddd;}
+.mo_rest_api_user_analytics tr:nth-child(even) {background-color: #f2f2f2;}
+.mo_rest_api_premium_option_text {
+    position: absolute;
+    font-weight: bold;
+    margin: 5.5% 11%;
+    z-index: 1;
+}
+.mo_rest_api_premium_option {
+    background-color: rgba(168, 168, 168, 0.7);
+    padding: 2%;
+    opacity: 0.5;
+}
+.mo_premium_feature {
+	color: red;
+}
+	input.disabled, input:disabled, select.disabled, select:disabled, textarea.disabled, textarea:disabled {background:#eee !important}
+	
+.mra-overlay {
+	top:0px;
+	left:0px;
+	position: fixed;
+	width:100% !important;
+	background-color: #121212 !important;
+	opacity: 0.9;
+	height:	100% !important;
+	z-index:99999;
+	/* transition: 10s display ease-in-out; */
+	animation: fadeIn 500ms;
+
+}
+
+@-moz-keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:0.9;}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:0.9;}
+}
+
+@keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:0.9;}
+}
+@-moz-keyframes fadeOut {
+    from {opacity:0.9;}
+    to {opacity:0;}
+}
+
+@-webkit-keyframes fadeOut {
+    from {opacity:0.9;}
+    to {opacity:0;}
+}
+@keyframes fadeOut {
+    from {opacity:0.9;}
+    to {opacity:0;}
+}
+
+.mra-overlay img{
+	position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.mra-overlay.dashboard {
+	display:none;
+}
+
+.header-warp {
+	padding: 2px;
+}
+
+.link_button {
+	padding: 4px 8px;
+	text-align: center;
+	font-weight: 400;
+	color: rgba(27, 112, 177, 1);
+	text-decoration: none;
+	font-size: 13px;
+	border-radius: 2px;
+	transition: 0.2s ease-in-out all;
+	border: 1px solid #cccccc;
+}
+
+.top_license {
+    background: #ffac11;
+	color: #212121;
+	font-weight: 500;
+
+}
+
+.link_button:hover {
+	cursor: pointer;
+	color: #f5f5f5;
+	background: rgba(27, 112, 177, 1);
+	box-shadow: 0 3px 6px 0 #3e92cc4d;
+	text-decoration: none;
+}
+
+.link_button:focus {
+	color: #f5f5f5;
+	background: rgba(27, 112, 177, 1);
+	text-decoration: none;
+}
+
+
+.top_license:hover {
+	box-shadow: 0 3px 3px 0 #ffa50055;
+	background: #ffa600;
+	color: #ffffff;
+}
+
+.mo_auth_method {display:inline-block; margin:auto; text-align:center; font-weight:bold; max-width:140px; width:20%; vertical-align:top}
+.mo_auth_method [type=radio] { position: absolute; opacity: 0; width: 0; height: 0;}
+.mo_auth_method [type=radio] + img { cursor: pointer; }
+.mo_auth_method [type=radio] + img {width:96px; padding:10px}
+.mo_auth_method [type=radio]:checked + img {outline: 2px solid #cccccc;width: 96px;background: #d9d9d9;}
+
+
+.mo-authenticatiom-method-config {
+	margin: 20px;
+}
+
+.mo-rest-api-save-config-button{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.mo_api_auth_headers {
+    font: 12pt/26pt satisfy;
+    margin: 20px 20px auto auto;
+    /*width: 250px;*/
+    text-align: center;
+}
+
+.mo_api_authentication_common_div_css {
+	padding: 10px;
+	/* margin: 20px 20px auto auto;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #e6e6e6; */
+}
+
+.mo_api_authentication_methods_css {
+	padding: 10px;
+	margin: 20px 20px 20px 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #8a8a8a;
+}
+
+.mo_api_authentication_hide_div {
+	display: none;
+}
+
+/*--------------------------------------------*/
+
+.mo_api_authentication_modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 100px;
+	top: 0;
+	margin-left:220px;
+	width: 50%;
+	height: 100%;
+
+}
+
+.mo_api_authentication_modal-demo {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: auto;
+}
+
+.mo_api_authentication_box{
+	display: block;
+	border: 1px solid #82befa;
+	background-color: #e9f2fa;
+	width: 100%;
+	height: 100%;
+}
+
+.mo_api_authentication_code_output{
+	display: block;
+    border: 1px solid #41444d;
+    background-color: #41444d;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 20px;
+    margin-top: 5px;
+}
+
+.mo_api_authentication_box_body_text{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.mo_api_authentication_box_header{
+	padding: 2px 20px;
+	border-bottom: 1px solid #61aefb;
+}
+
+.mo_api_authentication_box_white_section{
+	padding: 2px 20px;
+	background-color: white;
+}
+
+.mo_api_authentication_box_white_section_heading{
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mo_api_authentication_box_white_section{
+	background-color: white;
+}
+
+.mo_api_auth_bearer_token_button_wrap{
+	display: flex; 
+	width: 380px;
+}
+
+.mo_api_auth_bearer_token_input{
+	width:380px; 
+	border: 0;
+	padding:10px;
+	min-height: 40px !important;
+}
+
+.mo_api_auth_bearer_token_show_button{
+	position: absolute;
+	margin-left: 310px;
+	margin-top: 9px;
+	cursor: pointer;
+}
+
+.mo_api_auth_bearer_token_show_button2{
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+.mo_api_authentication_request_button{
+	display: inline-block;
+	border: 1px solid #61aefb;
+	padding: 5px 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: #61aefb;
+	color: white;
+	border-radius: 2px;
+	margin-right: 10px;
+}
+
+.mo_api_authentication_box_heading{
+	font-size: 15px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mo_api_authentication_modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 55%;
+}
+.mo_close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#mo_toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -250px;
+    background-color: rgba(51, 51, 51, 0.65);
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    position: absolute;
+	z-index: 1;
+	/* left: 50%; */
+	padding: 16px;
+}
+#mo_toast.show {
+    visibility: visible;
+    -webkit-animation: mo_fadein 0.5s, mo_fadeout 0.5s 2.5s;
+    animation: mo_fadein 0.5s, mo_fadeout 0.5s 2.5s;
+}
+
+
+@-webkit-keyframes mo_fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes mo_fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes mo_fadeout {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes mo_fadeout {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+
+.mo_close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.mo_tutorial_overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .5;
+	z-index: 0;
+
+}
+
+.fade {
+	opacity: 0;
+	-webkit-transition: opacity 0.15s linear;
+	-o-transition: opacity 0.15s linear;
+	transition: opacity 0.15s linear;
+}
+.fade.in {
+	opacity: 1;
+}
+.modal-header {
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.modal-header .close {
+	margin-top: -2px;
+}
+.modal-title {
+	margin: 0;
+	line-height: 1.42857143;
+	font-size: large;
+}
+.modal-body {
+	position: relative;
+	padding: 15px;
+}
+.modal-dialog {
+	position: relative;
+	width: auto;
+	margin: 10px;
+}
+.modal.fade .modal-dialog {
+	-webkit-transform: translate(0, -25%);
+	-ms-transform: translate(0, -25%);
+	-o-transform: translate(0, -25%);
+	transform: translate(0, -25%);
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-o-transition: -o-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+}
+.modal.in .modal-dialog {
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	-o-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+.mo_api_authentication_modal-footer {
+	padding: 15px;
+	text-align: right;
+	border-top: 1px solid #e5e5e5;
+}
+.mo_api_authentication_modal-footer .btn + .btn {
+	margin-left: 5px;
+	margin-bottom: 0;
+}
+.mo_api_authentication_modal-footer .btn-group .btn + .btn {
+	margin-left: -1px;
+}
+.mo_api_authentication_modal-footer .btn-block + .btn-block {
+	margin-left: 0;
+}
+.mo_api_authentication_modal-footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.mo_close {
+	float: right;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1;
+	color: #000000;
+	text-shadow: 0 1px 0 #212121;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.mo_close:hover,
+.mo_close:focus {
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+button.close {
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	-webkit-appearance: none;
+}
+
+.mo-span-circle{
+	display: inline-block;
+	padding: 15px;
+	line-height: 100%;
+
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+
+}
+.nav-tab-active{
+	margin-bottom: -1px;
+	background: white;
+	border-bottom: white;
+	border-bottom: 3px solid white;
+}
+.nav-tab-active:hover{
+	color: black;
+	background: white;
+	border-bottom: white;
+	border-bottom: 3px solid white;
+}
+
+#mo_protectedrestapi_container ul li {
+	padding-left: 20px;
+}
+
+#mo_protectedrestapi_container em {
+	font-size: 0.8em;
+}
+
+.mo_api_authentication_delete_button {	
+	background-color: #f44336 !important;
+	color: white !important;
+}
+
+.mo_rest_api_subsites_settings_table {
+	width: 100%;
+}
+
+.mo_rest_api_subsites_settings_table td{
+	border: 1px solid #dddddd;
+    text-align: left;
+  	padding: 8px;
+  	text-align: center;
+}
+
+.mo_rest_api_subsites_settings_table tr:nth-child(even) {
+  background-color: #dddddd;
+}

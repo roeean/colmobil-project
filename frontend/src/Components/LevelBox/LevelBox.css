@@ -1,0 +1,18 @@
+.btnOut {
+    color: #fff;
+    background-color: #00AAD2
+}
+
+.btnOver {
+    color: #00AAD2;
+    background-color: #fff
+}
+
+#name {
+    font-size: 24px
+}
+
+
+#description {
+    font-size: 16px
+}

@@ -1,0 +1,22 @@
+#infoBox {
+    margin-bottom: 100px
+}
+
+#infoBox #sum {
+    font-size: 24px;
+    color: #00AAD2
+}
+
+#infoBox #fee {
+    font-size: 16px
+}
+
+#imgBox {
+   display: flex;
+   justify-content: center
+}
+
+#imgBox img {
+    width: 80%;
+     height: 80%
+}
