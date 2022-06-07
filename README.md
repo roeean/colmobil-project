@@ -21,7 +21,7 @@
 
 >**Wordpress Credentials:**
 >- username: admin
->.- password: admin
+>- password: admin
 
 >**phpMyAdmin Credientials:**
 >- username: wordpress
